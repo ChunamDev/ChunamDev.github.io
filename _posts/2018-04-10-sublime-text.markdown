@@ -9,17 +9,24 @@ categories: [sublime text, editor]
 
 
 
-1. Sublime Text2 Download [http://www.sublimetext.com/2](http://www.sublimetext.com/2)
+#### Sublime Text2 Download
+ [http://www.sublimetext.com/2](http://www.sublimetext.com/2)
+ 
+- - -
 
-2. 각자 OS에 맞는 파일을 다운로드 ![](http://)
+#### 각자 OS에 맞는 파일을 다운로드
+ ![Version img](https://chunamdev.github.io/images/version.gif)
 
-3. Sublime Text 2를 실행한후 ctrl+\` 또는 `View > Show Console` 을 열고 다음단계의 내용을 복사 => 붙여넣기 => 엔터
+- - -
+#### `Package Control` 설치
 
-4. `Package Control 설치하기` [SUBLIME TEXT 2 Package Control](https://packagecontrol.io/installation#st2)
+- Sublime Text 2를 실행한후 ctrl+\` 또는 `View > Show Console` 을 열고 다음단계의 내용을 복사 => 붙여넣기 => 엔터
+- [SUBLIME TEXT 2 Package Control](https://packagecontrol.io/installation#st2)
 
-5. Sublime 재부팅 후 `ctrl + shift + p => install package 입력 후 엔터`
 
-6. 각종 플러그인 설치
+- - -
+#### 플러그인 설치
+- Sublime 재부팅 후 `ctrl + shift + p => install package 입력 후 엔터`
 - `IMESupport` 한글 입력을 할 때 한글자씩 늦게 보이는 현상을 완화시켜준다. Only Window
 - `ConvertToUTF8` 서브라임 텍스트는 euc-kr 을 지원하지 않는데, 이 플러그인을 깔고 File - Set File Encoding To 에서 EUC-KR을 선택하면 된다.
 - `BracketHighlighter` 태그의 처음과 끝을 하이라이트 시켜서 코드 가독성을 높여준다.
@@ -33,10 +40,9 @@ categories: [sublime text, editor]
 - `FuzzyFilePath` 이미지나 파일의 경로를 자동으로 알려주는 플러그인
 - `Markdown Preview` 작성하다가 최종 결과물이 보고 싶다면 `CTRL + B`(빌드. 윈도)하면 브라우저에 작성하고 있는 문서가 보여질 것이다.
 
-
 - - -
 
-###  환경설정 `Preferences => Setings-User`
+####  환경설정 `Preferences => Setings-User`
 
 ```json
 {
