@@ -2,7 +2,6 @@
 layout: post
 title:  "Sublime Text 설치 및 세팅"
 date:   2018-04-10
-categories: Sublime Text
 img: sublime.gif
 categories: [sublime text, editor]
 ---
@@ -86,7 +85,7 @@ categories: [sublime text, editor]
 
 - `Ctrl+N` 새문서 만들기
 - `Ctrl+Shift+Up`  현재의 행을 윗행과 교체
-- `Ctrl+Shift+Down` 현재의 행을 아랫행과 교체합니다
+- `Ctrl+Shift+Down` 현재의 행을 아랫행과 교체
 - `Ctrl+/` 주석 만들기 or 주석제거
 - `Ctrl+Shift+/` 요소가 포함된 블럭 전체를 주석
 - `Ctrl + Alt + ↑,↓` 여러라인을 한꺼번에 선택 가능
