@@ -15,7 +15,8 @@ categories: [sublime text, editor]
 - - -
 
 #### 각자 OS에 맞는 파일을 다운로드
- ![Version img](/images/version.gif)
+ ![Version img]({{site.baseurl}}/images/version.gif)
+ 
 
 - - -
 #### `Package Control` 설치
