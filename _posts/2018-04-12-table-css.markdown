@@ -8,9 +8,9 @@ categories: [css, table, basic]
 
 ####  Table CSS
 
-```css
+```scss
 {
-    /* 구글 웹폰트 https://fonts.google.com/  */
+/* 구글 웹폰트 https://fonts.google.com/  */
 /* 나눔고딕 */
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&subset=korean');
 /* ROBOTO */
@@ -24,10 +24,10 @@ table {border-collapse:collapse;} /* 테이블이 가지는 기본 간격 제거
 .op-table {
     width:100%;
     font-size:inherit; /* 부모요소의 값을 상속함 */
-    font-family:inherit; /* 부모요소의 값을 상속함 */
+    font-family:inherit;  /* 부모요소의 값을 상속함 */
     line-height:160%;
-    font-family: 'Roboto', sans-serif;/* 영문 */
-    font-family: 'Open Sans', sans-serif;/* 영문 */
+    font-family: 'Roboto', sans-serif; /* 영문 */
+    font-family: 'Open Sans', sans-serif; /* 영문 */
     font-family: 'Nanum Gothic', sans-serif; /* 국문 */
     table-layout:fixed;  /* 테이블 넓이값 고정 넓이값 지정시 */
     word-break:break-all; /* 테이블을 고정시켰을때 내부 텍스트의 줄바꿈 */
