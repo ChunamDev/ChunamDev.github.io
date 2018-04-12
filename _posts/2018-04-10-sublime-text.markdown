@@ -28,6 +28,8 @@ categories: [sublime text, editor]
 - - -
 #### 플러그인 설치
 - Sublime 재부팅 후 `ctrl + shift + p => install package 입력 후 엔터`
+- `Emmet` 젠코딩을 가능
+- `SublimeCodeIntel` 코드인텔리전스 기능
 - `IMESupport` 한글 입력을 할 때 한글자씩 늦게 보이는 현상을 완화시켜준다. Only Window
 - `ConvertToUTF8` 서브라임 텍스트는 euc-kr 을 지원하지 않는데, 이 플러그인을 깔고 File - Set File Encoding To 에서 EUC-KR을 선택하면 된다.
 - `BracketHighlighter` 태그의 처음과 끝을 하이라이트 시켜서 코드 가독성을 높여준다.
@@ -77,3 +79,20 @@ categories: [sublime text, editor]
     "word_wrap": true
 }
 ```
+
+
+- - -
+#### 단축키 활용
+
+- `Ctrl+N` 새문서 만들기
+- `Ctrl+Shift+Up`  현재의 행을 윗행과 교체
+- `Ctrl+Shift+Down` 현재의 행을 아랫행과 교체합니다
+- `Ctrl+/` 주석 만들기 or 주석제거
+- `Ctrl+Shift+/` 요소가 포함된 블럭 전체를 주석
+- `Ctrl + Alt + ↑,↓` 여러라인을 한꺼번에 선택 가능
+- `Ctrl+Shift+Enter` 블럭 앞에 행 삽입
+- `Ctrl+Enter` 블럭 뒤에 행 삽입
+- `Ctrl+Delete` 커서 뒤 단어 삭제
+- `Ctrl+Backspace` 커서 앞 단어 삭제
+- `Ctrl+Shift+K` 한줄을 삭제
+- `ctrl+[ · ctrl+]` 행 들여쓰기 · 내어쓰기
