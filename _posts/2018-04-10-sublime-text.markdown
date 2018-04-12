@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sublime Text 설치 및 세팅"
-date:   2018-04-10
+date:   2018년 4월 12일 목 오전 11시 29분
 categories: Sublime Text
 img: sublime.gif
 categories: [sublime text, editor]
@@ -32,3 +32,41 @@ categories: [sublime text, editor]
 - `HTML-CSS-JS Prettify` HTML, CSS, JS에 대해서 코딩을 이쁘게 정렬해주는 기능을 제공해 준다. `Ctrl + Shift + H` 키를 누르면 코드가 이쁘게 정렬된다.
 - `FuzzyFilePath` 이미지나 파일의 경로를 자동으로 알려주는 플러그인
 - `Markdown Preview` 작성하다가 최종 결과물이 보고 싶다면 `CTRL + B`(빌드. 윈도)하면 브라우저에 작성하고 있는 문서가 보여질 것이다.
+
+
+- - -
+
+###  환경설정 `Preferences => Setings-User`
+
+```json
+{
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/Theme - Kronuz/Kronuz.tmTheme",
+    "dc_bold_folder_labels": true,
+    "dc_hide_group_icons": true,
+    "dc_highlight_active_sidebar_row": true,
+    "dc_mouse_wheel_switches_tabs": true,
+    "dc_use_group_icon4": true,
+    "dc_use_sidebar_active_row_style2": true,
+    "dc_use_soda_search_icons": true,
+    "ensure_newline_at_eof_on_save": true,
+    "font_face": "NanumGothic",
+    "font_size": 12,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Sublime Linter",
+        "Vintage"
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "shift_tab_unindent": true,
+    "soda_folder_icons": true,
+    "tab_size": 4,
+    "theme": "DC_2.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": true
+}
+```
