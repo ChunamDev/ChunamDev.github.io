@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sublime Text 설치 및 세팅"
-date:   2018년 4월 12일 목 오전 11시 29분
+date:   2018-04-10
 categories: Sublime Text
 img: sublime.gif
 categories: [sublime text, editor]
