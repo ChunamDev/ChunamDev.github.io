@@ -9,7 +9,6 @@ categories: [css, table, basic]
 ####  Table CSS
 
 {% highlight css %}
-{
 /* 구글 웹폰트 https://fonts.google.com/  */
 
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&subset=korean') /* 나눔고딕 */
