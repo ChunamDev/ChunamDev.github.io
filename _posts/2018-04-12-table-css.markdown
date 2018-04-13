@@ -8,44 +8,29 @@ categories: [css, table, basic]
 
 ####  Table CSS
 
-{% highlight html %}
+{% highlight css %}
 {
 /* 구글 웹폰트 https://fonts.google.com/  */
-/* 나눔고딕 */
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&subset=korean')
-/* ROBOTO */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500')
-/* open sans */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600')
 
-/* op-table */
-table {border-collapse:collapse;} /* 테이블이 가지는 기본 간격 제거 */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&subset=korean') /* 나눔고딕 */
 
-.op-table {
-    width:100%;
-    font-size:inherit; /* 부모요소의 값을 상속함 */
-    font-family:inherit;  /* 부모요소의 값을 상속함 */
-    line-height:160%;
-    font-family: 'Roboto', sans-serif; /* 영문 */
-    font-family: 'Open Sans', sans-serif; /* 영문 */
-    font-family: 'Nanum Gothic', sans-serif; /* 국문 */
-    table-layout:fixed;  /* 테이블 넓이값 고정 넓이값 지정시 */
-    word-break:break-all; /* 테이블을 고정시켰을때 내부 텍스트의 줄바꿈 */
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500') /* ROBOTO */
 
-.op-table th, .op-table td {border:1px solid #cccccc;padding:7px;}
-.op-table thead th {background:#eeeeee;text-align:center;font-weight:600;}
-.op-table thead th.top-line {border-top:2px solid #56d7eb;}
-.op-table thead td {background:yellow;text-align:center;}
-.op-table tbody th {background:#eeeeee;}
-.op-table tbody tr:nth-child(2n) {background:#eeeeee;} /* tr의 짝수번째만 배경색 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600') /* open sans */
 
-/* Class Option */
-.op-table .center {text-align:center;}
-.op-table .left {text-align:left;}
-.op-table .right {text-align:right;}
-.op-table .vertical {vertical-align:top;} /* 텍스트를 위아래 가운데정렬이 아닌 윗정렬 시켜줌 */
-.op-table .coffee {font-style: italic;}
-.op-table img {display:block;vertical-align:top;border:none;} /* 테이블에 이미지 넣을때 빈틈제거 및 td의 안에 꽉 차도록 블럭요소 지정 */
-}
+table {border-collapse:collapse;} /* op-table 테이블이 가지는 기본 간격 제거 */
+
+.op-table{width:100%;font-size:inherit;font-family:inherit;line-height:160%;font-family:Roboto,sans-serif;font-family:'Open Sans',sans-serif;font-family:'Nanum Gothic',sans-serif;table-layout:fixed;word-break:break-all}
+.op-table th,.op-table td{border:1px solid #ccc;padding:7px}
+.op-table thead th{background:#eee;text-align:center;font-weight:600}
+.op-table thead th.top-line{border-top:2px solid #56d7eb}
+.op-table thead td{background:#ff0;text-align:center}
+.op-table tbody th{background:#eee}
+.op-table tbody tr:nth-child(2n){background:#eee}
+.op-table .center{text-align:center}
+.op-table .left{text-align:left}
+.op-table .right{text-align:right}
+.op-table .vertical{vertical-align:top}
+.op-table .coffee{font-style:italic}
+.op-table img{display:block;vertical-align:top;border:none}
 {% endhighlight %}
