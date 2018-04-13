@@ -8,7 +8,7 @@ categories: [css, table, basic]
 
 ####  Table CSS
 
-```scss
+{% highlight css %}
 {
 /* 구글 웹폰트 https://fonts.google.com/  */
 /* 나눔고딕 */
@@ -48,4 +48,4 @@ table {border-collapse:collapse;} /* 테이블이 가지는 기본 간격 제거
 .op-table .coffee {font-style: italic;}
 .op-table img {display:block;vertical-align:top;border:none;} /* 테이블에 이미지 넣을때 빈틈제거 및 td의 안에 꽉 차도록 블럭요소 지정 */
 }
-```
+{% endhighlight %}
