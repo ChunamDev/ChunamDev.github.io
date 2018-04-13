@@ -46,7 +46,7 @@ categories: [sublime text, editor]
 
 ####  환경설정 `Preferences => Setings-User`
 
-```json
+{% highlight json %}
 {
     "bold_folder_labels": true,
     "color_scheme": "Packages/Theme - Kronuz/Kronuz.tmTheme",
@@ -77,7 +77,7 @@ categories: [sublime text, editor]
     "trim_trailing_white_space_on_save": true,
     "word_wrap": true
 }
-```
+{% endhighlight %}
 
 
 - - -
