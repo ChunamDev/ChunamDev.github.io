@@ -8,7 +8,7 @@ categories: [css, table, basic]
 
 ####  Table CSS
 
-{% highlight css %}
+{% highlight html %}
 {
 /* 구글 웹폰트 https://fonts.google.com/  */
 /* 나눔고딕 */
