@@ -7,3 +7,50 @@ categories: [meta_tag]
 ---
 
 ####  웹 검색을 위한 메타태그
+{% highlight html %}
+<meta name="Keywords" content="검색엔진에의해 검색되는 단어 지정" />
+<meta name="Description" content="검색 결과에 표시되는 문자를 지정" />
+<meta name="Robots" content="All" />
+// content 속성에는 다음과 같이 지정할 수 있고 복수지정할 때에는 콤마(,)로 구분합니다.
+// All(기본값) : 'index, follow' 를 지정한 것과 같습니다.
+// None : 'noindex, nofollow' 를 지정한 것과 같습니다.
+// Index : 그 페이지를 수집 대상으로 합니다.
+// Follow : 그 페이지를 포함해 링크가 걸린 곳을 수집 대상으로 합니다.
+// Noindex : 그 페이지를 수집대상에서 제외합니다.
+// Nofollow : 그페이지를 포함해 링크가 걸린 곳을 수집 대상으로 하지 않습니다.
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> // 브라우저 호환성을 지정
+<meta http-equiv="Subject" content="홈페이지 주제를 지정" />
+
+//캐쉬가 저정되지않고 매번 새로고침 하도록 설정 단! 매번 페이지를 새로고침하기때문에 페이지 로딩속도가 느림
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+{% endhighlight %}
+
+- - -
+
+####  소셜공유를 위한 메타태그
+{% highlight html %}
+<link rel="image_src" href="http://chongmoa.com/대표이미지.png" /> //공유하기 기능위한 이미지 추출
+{% endhighlight %}
+
+- `트위터`
+{% highlight html %}
+<meta name="twitter:card" content="트위터 카드 summary는 웹페이지에 대한 요약정보를 보여주는 카드로 우측에 썸네일을 보여주고 그 옆에 페이지의 제목과 요약 내용을 보여준다." />  
+<meta name="twitter:url" content="트위터 카드를 사용하는 표시하고싶은URL" />  
+<meta name="twitter:title" content=" 트위터 카드에 나타날 웹 사이트의 제목" /> 
+<meta name="twitter:description" content="트위터 카드에 나타날 요약 설명" />  
+<meta name="twitter:image" content="트위터 카드에 보여줄 대표 이미지 URL" />  
+<meta name="twitter:site" content="트위터 카드에 사이트 배포자 트위터아이디" />  
+<meta name="twitter:creator" content="트위터 카드에 배포자 트위터아이디" />  
+{% endhighlight %}
+
+- `페이스북`
+{% highlight html %}
+<meta property="fb:app_id" content="앱아이디" />      
+<meta property="og:title" content="웹 사이트의 제목" /> 
+<meta property="og:type" content="사이트 종류" /> 
+<meta property="og:image" content="대표 이미지 URL (이미지를 여러 개 지정할 수 있음)" /> 
+<meta property="og:site_name" content="웹 사이트의 제목" /> 
+<meta property="og:url" content="표시하고싶은URL" /> 
+<meta property="og:description" content="페이지 설명" /> 
+{% endhighlight %}
