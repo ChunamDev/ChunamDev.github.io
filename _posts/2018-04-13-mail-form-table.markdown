@@ -6,7 +6,7 @@ img: html.gif
 categories: [html, table, mail form]
 ---
 
-####  메일폼을 html 의 table을 사용하여 보낼 떄
+####  메일폼을 html 의 table을 사용하여 보낼 때
 
 메일을 html로 작성해서 전달할때에는 몇가지 주의 사항이 필요하다.
 1. css 는 인라인 스타일로만 작성한다.
